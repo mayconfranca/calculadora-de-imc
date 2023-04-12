@@ -1,0 +1,74 @@
+/*Formatação CSS da página, através das suas classes, elementos e ids.*/
+
+body {
+    background-color: goldenrod;
+    margin: 0;
+}
+
+section {
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    border: solid 1px darkgoldenrod;
+    margin: 3% auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+}
+
+table {
+    margin: 0;
+    margin: auto;
+    padding: 0;
+    padding: 5px;
+}
+
+.classe-peso, .classe-altura {
+    color: goldenrod;
+}
+
+#peso, #altura {
+    border: solid 1px goldenrod;
+}
+
+button {
+    color: goldenrod;
+}
+
+.exemplo {
+    margin-top: 0;
+    text-align: center;
+    color: goldenrod;
+}
+
+#resultado {
+    text-align: center;
+    color: blue;
+    font-size: 17px;
+}
+
+#resultado-02 {
+    text-align: center;
+    color: tomato;
+    font-size: 17px;
+}
+
+.artigo {
+    text-align: center;
+    color: goldenrod;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+footer {
+    background-color: white;    
+    text-align: center;
+    color: goldenrod;
+    font-weight: bold;
+}

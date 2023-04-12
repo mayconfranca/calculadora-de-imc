@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título da guia.-->
+    <title>Calculadora de IMC</title>
+    <!--JavaScript-->
+    <script src="script.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">    
+</head>
+<body>
+    <!--Primeiro box.-->
+    <section>
+        <header>
+            <!--Título.-->
+            <h1>Calculadora de IMC</h1>
+        </header>
+        <article>
+            <!--Tabela de formulário.-->
+            <form>
+                <table>
+                    <tr>
+                        <td class="classe-peso">Peso</td>
+                        <!--Campo de entrada de valor para peso.-->
+                        <td><input type="text" id="peso"></td>
+                    </tr>
+                    <tr>
+                        <td class="classe-altura">Altura</td>
+                        <!--Campo de entrada de valor para altura.-->
+                        <td><input type="text" id="altura"></td>
+                    </tr>
+                    <tr>
+                        <!--Botão que executa a função resolver, através do atributo onclick.-->
+                        <td><button type="button" onclick="resolver()">Calcular</button></td>
+                    </tr>
+                </table>
+                <p class="exemplo">Exemplo: peso (Kg) - 75.900, altura (m) - 1.75.</p>
+            </form>
+            <p id="resultado"></p>
+            <p id="resultado-02"></p>
+        </article>
+    </section>
+    <!--Último box.-->
+    <section>
+        <header>
+            <!--Título.-->
+            <h1>IMC/Classificação</h1>
+        </header>
+        <article class="artigo">
+            <p>Menor que 18,5: magreza.</p>
+            <p>18,5 a 24,9: normal.</p>
+            <p>25 a 29,9: sobrepeso.</p>
+            <p>30 a 34,9: obesidade grau I.</p>
+            <p>35 a 39,9: obesidade grau II.</p>
+            <p>Maior que 40: obesidade grau III.</p>
+            <!--Link de acesso para página externa numa nova guia.-->
+            <p>Fonte: <a href="https://www.tuasaude.com/calculadora/imc/" target="_blank">clique aqui.</a></p>
+        </article>
+    </section>
+    <!--Crédito do desenvolvimento da página web.-->
+    <footer>Desenvolvido por Maycon França</footer>
+</body>
+</html>
